@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>週末課題</title>
+	<link rel="stylesheet" href="../reset.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<div class="header-left">自己紹介</div>
+		<ul class="header-right">
+			<li>新規登録</li>
+			<li>ログイン</li>
+		</ul>
+	</header>
+	<main class="top-img">
+		<h1 class="title">自己紹介</h1>
+		<div class="btn-group">
+			<button type="button" onclick="location.href='#link-one'" class="btn first">趣味紹介</button>
+			<button type="button" onclick="location.href='#link-two'"  class="btn second">contact</button>
+		</div>
+	</main>
+	<main class="main">
+		<h2 class="title-two" id="link-one">趣味紹介</h2>
+		<ul class="img-box">
+			<li>
+				<img src="m_341.jpg" alt="scuba diving">
+				<span>Scuba Diving</span>
+			</li>
+			<li>
+				<img src="300px-Darts_in_a_dartboard.jpg" alt="Darts">
+				<span>Darts</span>
+			</li>
+			<li>
+				<img src="img_0e3c84f72b63748d4b4c417b352275a7123039.jpg" alt="beer">
+				<span>beer</span>
+			</li>
+		</ul>
+	</main>
+	<aside class="contact" id="link-two">
+		<h2 class="title-three">contact us</h2>
+		<form action="">
+			<div class="form">
+				<div class="form-left">
+					<fieldset>
+						<input class="name" type="text" placeholder="お名前">
+					</fieldset>
+					<fieldset>
+						<input class="email" type="text" placeholder="メールアドレス">
+					</fieldset>
+				</div>
+				<fieldset>
+					<textarea class="inquiry" placeholder="お問い合わせ内容"></textarea>
+				</fieldset>
+			</div>
+			<button>submit</button>
+		</form>
+	</aside>
+	<footer class="footer">
+		<div class="footer-left">自己紹介</div>
+	</footer>
+</body>
+</html>
