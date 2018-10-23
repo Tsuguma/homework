@@ -173,14 +173,110 @@ header{
     	justify-content: space-around;
     }
     .img-box li{
-    	margin-right: 30px;
+    	margin-left: 30px;
     }
 }
 
 @media screen and (max-width: 960px){
+	.img-box{
+    	flex-wrap: wrap;
+    	align-content: space-around;
+    }
+    .img-box li{
+    	margin-top:30px;
+    	margin-right: 0;
+    }
+	.contact {
+         height: 100%;
+         padding: 40px 0;
+     }
 
+    .contact .form {
+         flex-direction: column;
+         margin: 30px 0;
+    }
+
+    .form .name, 
+    .form .email {
+         width: 80%;
+    }
+
+    .form-left {
+         margin-right: 0;
+         margin-bottom: 30px;
+    }
+
+    .form .inquiry {
+         width: 80%;
+    }
+
+    .contact button {
+        font-size: 20px;
+        padding: 5px 40px;
+    }
+    
 }
 
 @media screen and (max-width: 480px){
+	.header-left {
+		margin-left: 20px
+	}
+	.header-right {
+		display: none;
+	}
+	.title{
+		font-size: 30px;
+		margin-bottom: 30px;
+	}
+	.top-img{
+		height: 300px;
+	}
+	.title-two{
+		font-size: 30px;
+	}
+
+	.btn-group{
+		margin-top: 30px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.btn {
+		margin-left: 0;
+		margin-top: 15px;
+		height: 48px;
+		width: 140px;
+		font-size: 20px;
+    }
+	.btn:first-child{
+		margin-top: 0;
+	}
+    .img-box {
+    	flex-direction: column;
+    	align-items: center;
+    }
+    .img-box li{
+    	margin-left: 0;
+    }
+    .img-box li span{
+    	font-size: 20px;
+    }
+    .img-box li:first-child{
+    	margin-top: 0;
+    }
+
+    .contact h2 {
+    	font-size: 24px;    	
+    }
+    .form .name,
+    .form .email{
+    	height: 30px;
+    }
+    .form .inquiry{
+    	height: 50px;
+    }
+    .footer-left{
+    	margin-left: 20px;
+    }
 
 }
